@@ -3,7 +3,7 @@ function Hero() {
     return ( 
         <div className="container">
             <div className="row">
-                <img src="/media/images/homeHero.png" alt="" />
+                <img src="/media/images/homeHero.png"/>
             </div>
         </div>
      );
