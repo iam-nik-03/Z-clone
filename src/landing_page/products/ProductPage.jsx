@@ -1,10 +1,10 @@
 import React from 'react';
-function PricingPage() {
-    return (
+function ProductPage() {
+    return ( 
         <div>
             
         </div>
-    );
+     );
 }
 
-export default PricingPage;
+export default Product;
