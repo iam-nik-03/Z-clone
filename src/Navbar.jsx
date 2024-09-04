@@ -2,7 +2,7 @@ import React from "react";
 function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg border-bottom  " style={{backgroundColor:"#FFF"}}>
-      <div class="container">
+      <div class="container py-2">
         <a class="navbar-brand" href="#">
           <img src="media/images/logo.svg" alt="logo" style={{width:"25%"}}/>
         </a>
@@ -20,7 +20,7 @@ function Navbar() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           
           <form class="d-flex" role="search">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav  mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">
                 Signup

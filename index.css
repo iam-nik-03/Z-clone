@@ -1,0 +1,49 @@
+.nav-link{
+    margin-left: 40px;
+}
+
+/* footer */
+.link a {
+    text-decoration: none;
+    color: rgb(107, 105, 105);
+    font-weight: 700;
+    
+}
+.link a:hover{
+    color: rgb(7, 7, 255);
+    text-decoration:underline;
+}
+.link p {
+    font-size: larger;
+    font-weight: 500;
+
+}
+div a{
+    text-decoration: none;
+}
+
+footer .footer-graveyard-links ul li a {
+    color: #9b9b9b;
+    line-height: 5;
+    font-size: 1.2rem;
+   
+   
+}
+.footer-graveyard-links ul {
+    display: flex; /* Change list items to inline elements */
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .footer-graveyard-links li {
+    margin:0 5px 0 10px; /* Adjust spacing between list items */
+   
+  }
+  .footer-graveyard-links li a:hover {
+    color: blue; /* Hover color */
+  }
+
+
+
+   
