@@ -1,5 +1,6 @@
-import { Route, Routes } from "react-router-dom"
-import { BrowserRouter } from "react-router-dom";
+import React from 'react';
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 import HomePage from './landing_page/home/HomePage.jsx'
 import AboutPage from './landing_page/about/AboutPage.jsx'
@@ -15,10 +16,17 @@ function App() {
   
 
   return (
-    <>
-      <HomePage/>
-    </>
+   
+    //   <BrowserRouter>
+    //   <Routes>
+   
+    //       <Route path="/" element={<HomePage />} />
+         
+    
+    //   </Routes>
+    // </BrowserRouter>
+    <HomePage/>
   )
 }
 
-export default App
+export default App;
