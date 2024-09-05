@@ -1,5 +1,5 @@
 import React from 'react';
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 import HomePage from './landing_page/home/HomePage.jsx'
@@ -17,15 +17,14 @@ function App() {
 
   return (
    
-    //   <BrowserRouter>
-    //   <Routes>
-   
-    //       <Route path="/" element={<HomePage />} />
-         
-    
-    //   </Routes>
-    // </BrowserRouter>
-    <HomePage/>
+    <BrowserRouter>
+    <Routes>
+      
+        <Route path="/" element={<HomePage />} />
+       
+    </Routes>
+  </BrowserRouter>
+  
   )
 }
 
