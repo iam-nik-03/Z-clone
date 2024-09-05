@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from '../pricing/Hero.jsx';
 import Brokerage from '../pricing/Brokerage.jsx';
-import OpenAccount from '../../OpenAccount';
+import OpenAccount from '../../OpenAccount.jsx';
 function PricingPage() {
     return (
         <div>

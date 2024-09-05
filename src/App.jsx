@@ -1,4 +1,6 @@
 import { Route, Routes } from "react-router-dom"
+import { BrowserRouter } from "react-router-dom";
+
 import HomePage from './landing_page/home/HomePage.jsx'
 import AboutPage from './landing_page/about/AboutPage.jsx'
 import ProductPage from './landing_page/products/ProductPage.jsx'
@@ -14,18 +16,7 @@ function App() {
 
   return (
     <>
-<div className="App">
-      <Navbar/>
-    <Routes>
-      <Route path='/' element={<HomePage/>}/> 
-      <Route path='/signup' element={<Signup/>}/>
-      <Route path='/about' element={<AboutPage/>}/>
-      <Route path='/product' element={<ProductPage/>}/>
-      <Route path='/pricing' element={<PricingPage/>}/>
-      <Route path='/support' element={<Supportpage/>}/>
-  </Routes>
-    <Footer/>
-</div>
+      <HomePage/>
     </>
   )
 }

@@ -10,7 +10,7 @@ function Footer() {
             <br />
             <br />
             <p className=" fs-9 fw-bold text-muted">
-              {" "}
+            
               &copy; Since 2024 , TradingPal Broking Ltd.
             </p>
           </div>
