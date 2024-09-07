@@ -10,7 +10,6 @@ function Footer() {
             <br />
             <br />
             <p className=" fs-9 fw-bold text-muted">
-            
               &copy; Since 2024 , TradingPal Broking Ltd.
             </p>
           </div>
@@ -18,19 +17,23 @@ function Footer() {
             <p>Company</p>
             <a href="">About </a> <br />
             <a href="">Products</a> <br />
-            <a href="">Pricing</a><br />
-            <a href="">Referral programme</a><br />
+            <a href="">Pricing</a>
+            <br />
+            <a href="">Referral programme</a>
+            <br />
             <a href="">Careers</a> <br />
-            <a href="">Zerodha.tech</a><br />
-            <a href="">Press & media</a><br />
-            <a href="">Zerodha Cares (CSR) </a>
+            <a href="">TradingPal.tech</a>
+            <br />
+            <a href="">Press & media</a>
+            <br />
+            <a href="">TradingPal Cares (CSR) </a>
             <br />
           </div>
           <div className=" link col">
             <p>Support</p>
             <a href=""> Contact us</a> <br />
             <a href=""> Support portal</a> <br />
-            <a href=""> Z-Connect blog</a> <br />
+            <a href=""> Trade-Connect blog</a> <br />
             <a href=""> List of charges</a> <br />
             <a href=""> Downloads & resources</a> <br />
           </div>
@@ -50,9 +53,9 @@ function Footer() {
             Registered Address: TradingPal Broking Ltd., #153/154, 4th Cross,
             Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase,
             Bengaluru - 560078, Karnataka, India. For any complaints pertaining
-            to securities broking please write to complaints@zerodha.com, for DP
-            related to dp@zerodha.com. Please ensure you carefully read the Risk
-            Disclosure Document as prescribed by SEBI | ICF
+            to securities broking please write to complaints@TradingPal.com, for
+            DP related to dp@TradingPal.com. Please ensure you carefully read
+            the Risk Disclosure Document as prescribed by SEBI | ICF
           </p>
 
           <p>

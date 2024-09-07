@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import HomePage from "./landing_page/home/HomePage";
 import Signup from "./landing_page/signup/Signup";
 import AboutPage from "./landing_page/about/AboutPage";
@@ -10,7 +11,8 @@ import SupportPage from "./landing_page/support/SupportPage";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import NotFound from "./landing_page/NotFound";
-function App() {
+
+export default function App() {
   return (
     <>
       <BrowserRouter>
@@ -30,4 +32,4 @@ function App() {
   );
 }
 
-export default App;
+
