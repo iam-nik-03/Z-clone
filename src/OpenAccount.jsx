@@ -2,7 +2,7 @@ import React from "react";
 
 function OpenAccount() {
   return (
-    <div className="container p-5">
+    <div className="container p-5 border-top">
       <div className="row text-center">
         <h2 className="mt-5">Open a TradingPal account</h2>
         <p>
