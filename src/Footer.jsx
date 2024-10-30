@@ -1,5 +1,7 @@
 import React from "react";
-
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import XIcon from '@mui/icons-material/X';
 function Footer() {
   return (
     <footer>

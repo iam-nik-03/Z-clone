@@ -45,5 +45,26 @@ footer .footer-graveyard-links ul li a {
   }
 
 
+/* support */
+#supportHero{
+    background-color: rgba(73, 73, 192, 0.737);
+    color: white;
+}
+#supportWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+
+}
+#supportHero input{
+    padding: 10px 50px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+#supportHero a{
+    color: white;
+    text-decoration: underline;
+}
 
    
